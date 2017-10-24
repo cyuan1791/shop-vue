@@ -3,7 +3,7 @@
     <h3>Products</h3>
 
     <div class="row" v-for="row in productRows">
-      <div class="col-sm-4" v-for="product in row">
+      <div class="col-xs-12 col-sm-4" v-for="product in row">
         <product
           :product="product"
           track-by="id">

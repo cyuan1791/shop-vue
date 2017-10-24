@@ -1,7 +1,8 @@
 <template>
   <div class="media mb-1">
     <div class="media-left">
-      <img class="media-object rounded" src="http://placehold.it/50x50" :alt="item.title">
+      <img class="media-object rounded" src="http://archive.webcmsd.com/images/tree400x300.jpg
+" :alt="item.title" style="max-height: 50px;">
     </div>
     <div class="media-body">
       <strong class="d-block">{{item.title}}</strong>
