@@ -1,8 +1,8 @@
 <template>
   <div class="row">
-    <div class="col-xs-12">
-      <page-header></page-header>
-    </div>
+    <!--<div class="col-xs-12">-->
+      <!--<page-header></page-header>-->
+    <!--</div>-->
 
     <div class="col-xs-12">
       <coupons></coupons>
@@ -26,6 +26,7 @@
 
   export default {
     name: 'shop',
+
     components: {
       PageHeader,
       Coupons,

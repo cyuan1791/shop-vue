@@ -6,8 +6,14 @@ export const getProfile = ({ commit }) => {
   })
 }
 
+export const initProduct = ({ commit, product }) => {
+  commit('INIT_PRODUCT', product)
+}
+
 export const getProducts = ({ commit }) => {
+  // console.log(this.state.myProduct)
   api.getProducts(products => {
+    // console.log(products)
     commit('RECEIVE_PRODUCTS', products)
   })
 }

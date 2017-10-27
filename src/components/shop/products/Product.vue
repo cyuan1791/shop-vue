@@ -1,7 +1,6 @@
 <template>
   <div class="thumbnail">
-    <img class="card-img-top img-responsive" src="http://archive.webcmsd.com/images/tree400x300.jpg
-" :alt="product.title">
+    <img class="card-img-top img-responsive" :src="product.imgUrl" :alt="product.title">
     <div class="card-block">
       <h5 class="card-title">{{product.title}}</h5>
       <p class="card-text">{{product.price | formatMoney}} - Stock: {{product.inventory}}</p>
